@@ -20,7 +20,7 @@
 }
 
 .header-logo {
-    position: var(--header-logo-logo-position);
+    position: var(--header-logo-position);
 }
 
 .header-logo a {
@@ -29,6 +29,8 @@
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
 }
+
+/* NAV */
 
 .navbar-menu {
     float: right;
@@ -56,6 +58,7 @@
     position: relative;
 }
 
+/* BEFORE ELEMENT */
 .nav .nav-link::before {
     content: "";
     position: absolute;
@@ -66,11 +69,13 @@
     height: 20%;
 }
 
+/* HOVER STATE */
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
 
+/* LINK HOVER COLOR */
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
